@@ -263,6 +263,54 @@ include 'head.php';
             </div><!-- Container /- -->
         </div><!-- About Section /- -->
 
+        <!--Services sections-->
+        <div class="what-we-do-section" id="services">
+            <!-- Container -->
+            <div class="container">
+                <!-- Section Header -->
+                <div class="section-header">
+                    <h6>Our services</h6>
+                    <h3><b>What we</b> do</h3>
+                </div><!-- Section Header -->
+                <div class="what-do-boxes">
+                    <!-- Row -->
+                    <div class="row">
+                        <div class="col-md-6 what-do-box">
+                            <div class="icon-content-box">
+                                <i><img src="assets/images/what-do-icon-1.png" alt="Icon"></i>
+                                <h3>airport transportation</h3>
+                                <p>Duis tincidunt ornare semper. Phasellus velit purus, maximus sed leo eu, porta aliquet sapienlibero.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 what-do-box">
+                            <div class="icon-content-box">
+                                <i><img src="assets/images/what-do-icon-2.png" alt="Icon"></i>
+                                <h3>luxury taxi service</h3>
+                                <p>Duis tincidunt ornare semper. Phasellus velit purus, maximus sed leo eu, porta aliquet sapienlibero.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 what-do-box">
+                            <div class="icon-content-box">
+                                <i><img src="assets/images/what-do-icon-3.png" alt="Icon"></i>
+                                <h3>Home Pick Up</h3>
+                                <p>Duis tincidunt ornare semper. Phasellus velit purus, maximus sed leo eu, porta aliquet sapienlibero.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 what-do-box">
+                            <div class="icon-content-box">
+                                <i><img src="assets/images/what-do-icon-4.png" alt="Icon"></i>
+                                <h3>tour package trips</h3>
+                                <p>Duis tincidunt ornare semper. Phasellus velit purus, maximus sed leo eu, porta aliquet sapienlibero.</p>
+                            </div>
+                        </div>
+                    </div><!-- Row /- -->
+                    <div class="img-block">
+                        <img src="assets/images/what-we-do-img.png" alt="What We Do">
+                    </div>
+                </div>
+            </div><!-- Container /- -->
+        </div>
+
         <!-- Book Taxi Section -->
         <div class="book-taxi-section" id="booking">
             <!-- Container -->
@@ -318,560 +366,41 @@ include 'head.php';
             </div><!-- Container /- -->
         </div><!-- Book Taxi Section /- -->
 
-        <!-- Choose Section -->
-        <div class="choose-section d-none">
+        <!--Contact Us-->
+        <div class="contact-section" id="contact-us">
             <!-- Container -->
             <div class="container">
-                <!-- Section Header -->
-                <div class="section-header">
-                    <h6>top our cars</h6>
-                    <h3><b>Choose your</b> car</h3>
-                </div><!-- Section Header /- -->
-                <div class="choose-tab">
-                    <ul class="nav nav-tabs" id="choosetab" role="tablist">
-                        <li class="nav-item">
-                            <a class="nav-link active" id="town-tab" data-toggle="tab" href="#town" role="tab"
-                               aria-controls="town" aria-selected="true">town taxi</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="hybrid-tab" data-toggle="tab" href="#hybrid" role="tab"
-                               aria-controls="hybrid" aria-selected="false">Hybrid taxi</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="suv-tab" data-toggle="tab" href="#suv" role="tab"
-                               aria-controls="suv" aria-selected="false">suv taxi</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="tab-content" id="choosetab-content">
-                    <div class="tab-pane fade show active" id="town" role="tabpanel" aria-labelledby="town-tab">
-                        <div id="choose_1" class="choose-main">
-                            <div class="choose-thumbnail owl-carousel owl-theme">
-                                <div class="item" data-choose="1"><img src="assets/images/choose-1.jpg" alt="choose"/>
-                                </div>
-                                <div class="item" data-choose="2"><img src="assets/images/choose-2.jpg" alt="choose"/>
-                                </div>
-                                <div class="item" data-choose="3"><img src="assets/images/choose-3.jpg" alt="choose"/>
-                                </div>
-                                <div class="item" data-choose="4"><img src="assets/images/choose-4.jpg" alt="choose"/>
-                                </div>
-                                <div class="item" data-choose="5"><img src="assets/images/choose-5.jpg" alt="choose"/>
-                                </div>
-                                <div class="item" data-choose="6"><img src="assets/images/choose-6.jpg" alt="choose"/>
-                                </div>
-                            </div>
-                            <div class="choose-nav">
-                                <div class="choose-prev"><i class="fa fa-chevron-left"></i></div>
-                                <div class="choose-next"><i class="fa fa-chevron-right"></i></div>
-                            </div>
-                            <div class="choose-content">
-                                <div id="contnet_1_dtl-1">
-                                    <div class="choose-slide-content">
-                                        <div class="row">
-                                            <div class="col-lg-7">
-                                                <h3>2017 Hyundai Santa Fe</h3>
-                                                <span>Town taxi</span>
-                                                <h2>$6.50 <sub>/ km</sub></h2>
-                                                <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                                                    ipsu nec sagittis sem nibh id elit.Aenean sollicitudin, lorem quis
-                                                    bibendum auctor, nisi elit consequat ipsu nec sagittis sem nibh id
-                                                    elit.Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-                                                    consequat ielit.</p>
-                                                <div class="laguage-detail">
-                                                    <span><i class="fa fa-briefcase"></i> 2 Bags</span>
-                                                    <span><i class="fa fa-user"></i> 3 Passengers</span>
-                                                    <span><i class="fa fa-clock-o"></i> 6.5 / 100 Mpg</span>
-                                                </div>
-                                                <a href="#" title="Select Taxi">Select Taxi</a>
-                                            </div>
-                                            <div class="col-lg-5 choose-img">
-                                                <img src="assets/images/choose-slide-img.jpg" alt="Image"/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="contnet_1_dtl-2">
-                                    <div class="choose-slide-content">
-                                        <div class="row">
-                                            <div class="col-lg-7">
-                                                <h3>2017 Hyundai Santa Fe</h3>
-                                                <span>Town taxi</span>
-                                                <h2>$6.50 <sup>/ km</sup></h2>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                    industry. Lorem Ipsum has been the industry's standard dummy text
-                                                    ever since the 1500s, when an unknown printer took a galley of type
-                                                    and scrambled it to make a type specimen book.</p>
-                                                <div class="laguage-detail">
-                                                    <span><i class="fa fa-briefcase"></i> 2 Bags</span>
-                                                    <span><i class="fa fa-user"></i> 3 Passengers</span>
-                                                    <span><i class="fa fa-clock-o"></i> 6.5 / 100 Mpg</span>
-                                                </div>
-                                                <a href="#" title="Select Taxi">Select Taxi</a>
-                                            </div>
-                                            <div class="col-lg-5 choose-img">
-                                                <img src="assets/images/choose-slide-img.jpg" alt="Image"/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="contnet_1_dtl-3">
-                                    <div class="choose-slide-content">
-                                        <div class="row">
-                                            <div class="col-lg-7">
-                                                <h3>2017 Hyundai Santa Fe</h3>
-                                                <span>Town taxi</span>
-                                                <h2>$6.50 <sup>/ km</sup></h2>
-                                                <p>It has survived not only five centuries, but also the leap into
-                                                    electronic typesetting, remaining essentially unchanged. It was
-                                                    popularised in the 1960s with the release of Letraset sheets
-                                                    containing Lorem Ipsum passages, and more recently with desktop
-                                                    publishing software like Aldus PageMaker including versions of Lorem
-                                                    Ipsum.</p>
-                                                <div class="laguage-detail">
-                                                    <span><i class="fa fa-briefcase"></i> 2 Bags</span>
-                                                    <span><i class="fa fa-user"></i> 3 Passengers</span>
-                                                    <span><i class="fa fa-clock-o"></i> 6.5 / 100 Mpg</span>
-                                                </div>
-                                                <a href="#" title="Select Taxi">Select Taxi</a>
-                                            </div>
-                                            <div class="col-lg-5 choose-img">
-                                                <img src="assets/images/choose-slide-img.jpg" alt="Image"/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="contnet_1_dtl-4">
-                                    <div class="choose-slide-content">
-                                        <div class="row">
-                                            <div class="col-lg-7">
-                                                <h3>2017 Hyundai Santa Fe</h3>
-                                                <span>Town taxi</span>
-                                                <h2>$6.50 <sup>/ km</sup></h2>
-                                                <p>It is a long established fact that a reader will be distracted by the
-                                                    readable content of a page when looking at its layout. The point of
-                                                    using Lorem Ipsum is that it has a more-or-less normal distribution
-                                                    of letters, as opposed to using 'Content here, content here', making
-                                                    it look like readable English.</p>
-                                                <div class="laguage-detail">
-                                                    <span><i class="fa fa-briefcase"></i> 2 Bags</span>
-                                                    <span><i class="fa fa-user"></i> 3 Passengers</span>
-                                                    <span><i class="fa fa-clock-o"></i> 6.5 / 100 Mpg</span>
-                                                </div>
-                                                <a href="#" title="Select Taxi">Select Taxi</a>
-                                            </div>
-                                            <div class="col-lg-5 choose-img">
-                                                <img src="assets/images/choose-slide-img.jpg" alt="Image"/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="contnet_1_dtl-5">
-                                    <div class="choose-slide-content">
-                                        <div class="row">
-                                            <div class="col-lg-7">
-                                                <h3>2017 Hyundai Santa Fe</h3>
-                                                <span>Town taxi</span>
-                                                <h2>$6.50 <sup>/ km</sup></h2>
-                                                <p>Many desktop publishing packages and web page editors now use Lorem
-                                                    Ipsum as their default model text, and a search for 'lorem ipsum'
-                                                    will uncover many web sites still in their infancy. Various versions
-                                                    have evolved over the years, sometimes by accident, sometimes on
-                                                    purpose (injected humour and the like).</p>
-                                                <div class="laguage-detail">
-                                                    <span><i class="fa fa-briefcase"></i> 2 Bags</span>
-                                                    <span><i class="fa fa-user"></i> 3 Passengers</span>
-                                                    <span><i class="fa fa-clock-o"></i> 6.5 / 100 Mpg</span>
-                                                </div>
-                                                <a href="#" title="Select Taxi">Select Taxi</a>
-                                            </div>
-                                            <div class="col-lg-5 choose-img">
-                                                <img src="assets/images/choose-slide-img.jpg" alt="Image"/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="contnet_1_dtl-6">
-                                    <div class="choose-slide-content">
-                                        <div class="row">
-                                            <div class="col-lg-7">
-                                                <h3>2017 Hyundai Santa Fe</h3>
-                                                <span>Town taxi</span>
-                                                <h2>$6.50 <sup>/ km</sup></h2>
-                                                <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                                                    ipsu nec sagittis sem nibh id elit.Aenean sollicitudin, lorem quis
-                                                    bibendum auctor, nisi elit consequat ipsu nec sagittis sem nibh id
-                                                    elit.Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-                                                    consequat ielit.</p>
-                                                <div class="laguage-detail">
-                                                    <span><i class="fa fa-briefcase"></i> 2 Bags</span>
-                                                    <span><i class="fa fa-user"></i> 3 Passengers</span>
-                                                    <span><i class="fa fa-clock-o"></i> 6.5 / 100 Mpg</span>
-                                                </div>
-                                                <a href="#" title="Select Taxi">Select Taxi</a>
-                                            </div>
-                                            <div class="col-lg-5 choose-img">
-                                                <img src="assets/images/choose-slide-img.jpg" alt="Image"/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                <!-- Row -->
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-12">
+                        <div class="contact-box">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <h2>Phone</h2>
+                            <p>Phone : <a href="tel:18001234567"><?php echo $c['phone'] ?></a></p>
+                            <p>Phone : <a href="tel:18001234568"><?php echo $c['phone-2'] ?></a></p>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="hybrid" role="tabpanel" aria-labelledby="hybrid-tab">
-                        <div id="choose_2" class="choose-main">
-                            <div class="choose-thumbnail owl-carousel owl-theme">
-                                <div class="item" data-choose="1"><img src="assets/images/choose-1.jpg" alt="choose"/>
-                                </div>
-                                <div class="item" data-choose="2"><img src="assets/images/choose-2.jpg" alt="choose"/>
-                                </div>
-                                <div class="item" data-choose="3"><img src="assets/images/choose-3.jpg" alt="choose"/>
-                                </div>
-                                <div class="item" data-choose="4"><img src="assets/images/choose-4.jpg" alt="choose"/>
-                                </div>
-                                <div class="item" data-choose="5"><img src="assets/images/choose-5.jpg" alt="choose"/>
-                                </div>
-                                <div class="item" data-choose="6"><img src="assets/images/choose-6.jpg" alt="choose"/>
-                                </div>
-                            </div>
-                            <div class="choose-nav">
-                                <div class="choose-prev"><i class="fa fa-chevron-left"></i></div>
-                                <div class="choose-next"><i class="fa fa-chevron-right"></i></div>
-                            </div>
-                            <div class="choose-content">
-                                <div id="contnet_2_dtl-1">
-                                    <div class="choose-slide-content">
-                                        <div class="row">
-                                            <div class="col-lg-7">
-                                                <h3>2017 Hyundai Santa Fe</h3>
-                                                <span>Town taxi</span>
-                                                <h2>$6.50 <sub>/ km</sub></h2>
-                                                <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                                                    ipsu nec sagittis sem nibh id elit.Aenean sollicitudin, lorem quis
-                                                    bibendum auctor, nisi elit consequat ipsu nec sagittis sem nibh id
-                                                    elit.Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-                                                    consequat ielit.</p>
-                                                <div class="laguage-detail">
-                                                    <span><i class="fa fa-briefcase"></i> 2 Bags</span>
-                                                    <span><i class="fa fa-user"></i> 3 Passengers</span>
-                                                    <span><i class="fa fa-clock-o"></i> 6.5 / 100 Mpg</span>
-                                                </div>
-                                                <a href="#" title="Select Taxi">Select Taxi</a>
-                                            </div>
-                                            <div class="col-lg-5 choose-img">
-                                                <img src="assets/images/choose-slide-img.jpg" alt="Image"/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="contnet_2_dtl-2">
-                                    <div class="choose-slide-content">
-                                        <div class="row">
-                                            <div class="col-lg-7">
-                                                <h3>2017 Hyundai Santa Fe</h3>
-                                                <span>Town taxi</span>
-                                                <h2>$6.50 <sup>/ km</sup></h2>
-                                                <p>Many desktop publishing packages and web page editors now use Lorem
-                                                    Ipsum as their default model text, and a search for 'lorem ipsum'
-                                                    will uncover many web sites still in their infancy. Various versions
-                                                    have evolved over the years, sometimes by accident, sometimes on
-                                                    purpose (injected humour and the like).</p>
-                                                <div class="laguage-detail">
-                                                    <span><i class="fa fa-briefcase"></i> 2 Bags</span>
-                                                    <span><i class="fa fa-user"></i> 3 Passengers</span>
-                                                    <span><i class="fa fa-clock-o"></i> 6.5 / 100 Mpg</span>
-                                                </div>
-                                                <a href="#" title="Select Taxi">Select Taxi</a>
-                                            </div>
-                                            <div class="col-lg-5 choose-img">
-                                                <img src="assets/images/choose-slide-img.jpg" alt="Image"/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="contnet_2_dtl-3">
-                                    <div class="choose-slide-content">
-                                        <div class="row">
-                                            <div class="col-lg-7">
-                                                <h3>2017 Hyundai Santa Fe</h3>
-                                                <span>Town taxi</span>
-                                                <h2>$6.50 <sup>/ km</sup></h2>
-                                                <p>It is a long established fact that a reader will be distracted by the
-                                                    readable content of a page when looking at its layout. The point of
-                                                    using Lorem Ipsum is that it has a more-or-less normal distribution
-                                                    of letters, as opposed to using 'Content here, content here', making
-                                                    it look like readable English.</p>
-                                                <div class="laguage-detail">
-                                                    <span><i class="fa fa-briefcase"></i> 2 Bags</span>
-                                                    <span><i class="fa fa-user"></i> 3 Passengers</span>
-                                                    <span><i class="fa fa-clock-o"></i> 6.5 / 100 Mpg</span>
-                                                </div>
-                                                <a href="#" title="Select Taxi">Select Taxi</a>
-                                            </div>
-                                            <div class="col-lg-5 choose-img">
-                                                <img src="assets/images/choose-slide-img.jpg" alt="Image"/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="contnet_2_dtl-4">
-                                    <div class="choose-slide-content">
-                                        <div class="row">
-                                            <div class="col-lg-7">
-                                                <h3>2017 Hyundai Santa Fe</h3>
-                                                <span>Town taxi</span>
-                                                <h2>$6.50 <sup>/ km</sup></h2>
-                                                <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                                                    ipsu nec sagittis sem nibh id elit.Aenean sollicitudin, lorem quis
-                                                    bibendum auctor, nisi elit consequat ipsu nec sagittis sem nibh id
-                                                    elit.Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-                                                    consequat ielit.</p>
-                                                <div class="laguage-detail">
-                                                    <span><i class="fa fa-briefcase"></i> 2 Bags</span>
-                                                    <span><i class="fa fa-user"></i> 3 Passengers</span>
-                                                    <span><i class="fa fa-clock-o"></i> 6.5 / 100 Mpg</span>
-                                                </div>
-                                                <a href="#" title="Select Taxi">Select Taxi</a>
-                                            </div>
-                                            <div class="col-lg-5 choose-img">
-                                                <img src="assets/images/choose-slide-img.jpg" alt="Image"/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="contnet_2_dtl-5">
-                                    <div class="choose-slide-content">
-                                        <div class="row">
-                                            <div class="col-lg-7">
-                                                <h3>2017 Hyundai Santa Fe</h3>
-                                                <span>Town taxi</span>
-                                                <h2>$6.50 <sup>/ km</sup></h2>
-                                                <p>It has survived not only five centuries, but also the leap into
-                                                    electronic typesetting, remaining essentially unchanged. It was
-                                                    popularised in the 1960s with the release of Letraset sheets
-                                                    containing Lorem Ipsum passages, and more recently with desktop
-                                                    publishing software like Aldus PageMaker including versions of Lorem
-                                                    Ipsum.</p>
-                                                <div class="laguage-detail">
-                                                    <span><i class="fa fa-briefcase"></i> 2 Bags</span>
-                                                    <span><i class="fa fa-user"></i> 3 Passengers</span>
-                                                    <span><i class="fa fa-clock-o"></i> 6.5 / 100 Mpg</span>
-                                                </div>
-                                                <a href="#" title="Select Taxi">Select Taxi</a>
-                                            </div>
-                                            <div class="col-lg-5 choose-img">
-                                                <img src="assets/images/choose-slide-img.jpg" alt="Image"/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="contnet_2_dtl-6">
-                                    <div class="choose-slide-content">
-                                        <div class="row">
-                                            <div class="col-lg-7">
-                                                <h3>2017 Hyundai Santa Fe</h3>
-                                                <span>Town taxi</span>
-                                                <h2>$6.50 <sup>/ km</sup></h2>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                    industry. Lorem Ipsum has been the industry's standard dummy text
-                                                    ever since the 1500s, when an unknown printer took a galley of type
-                                                    and scrambled it to make a type specimen book.</p>
-                                                <div class="laguage-detail">
-                                                    <span><i class="fa fa-briefcase"></i> 2 Bags</span>
-                                                    <span><i class="fa fa-user"></i> 3 Passengers</span>
-                                                    <span><i class="fa fa-clock-o"></i> 6.5 / 100 Mpg</span>
-                                                </div>
-                                                <a href="#" title="Select Taxi">Select Taxi</a>
-                                            </div>
-                                            <div class="col-lg-5 choose-img">
-                                                <img src="assets/images/choose-slide-img.jpg" alt="Image"/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="col-md-4 col-sm-6 col-12">
+                        <div class="contact-box">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <h2>Address</h2>
+                            <p><?php echo $c['address'] ?></p>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="suv" role="tabpanel" aria-labelledby="suv-tab">
-                        <div id="choose_3" class="choose-main">
-                            <div class="choose-thumbnail owl-carousel owl-theme">
-                                <div class="item" data-choose="1"><img src="assets/images/choose-1.jpg" alt="choose"/>
-                                </div>
-                                <div class="item" data-choose="2"><img src="assets/images/choose-2.jpg" alt="choose"/>
-                                </div>
-                                <div class="item" data-choose="3"><img src="assets/images/choose-3.jpg" alt="choose"/>
-                                </div>
-                                <div class="item" data-choose="4"><img src="assets/images/choose-4.jpg" alt="choose"/>
-                                </div>
-                                <div class="item" data-choose="5"><img src="assets/images/choose-5.jpg" alt="choose"/>
-                                </div>
-                                <div class="item" data-choose="6"><img src="assets/images/choose-6.jpg" alt="choose"/>
-                                </div>
-                            </div>
-                            <div class="choose-nav">
-                                <div class="choose-prev"><i class="fa fa-chevron-left"></i></div>
-                                <div class="choose-next"><i class="fa fa-chevron-right"></i></div>
-                            </div>
-                            <div class="choose-content">
-                                <div id="contnet_3_dtl-1">
-                                    <div class="choose-slide-content">
-                                        <div class="row">
-                                            <div class="col-lg-7">
-                                                <h3>2017 Hyundai Santa Fe</h3>
-                                                <span>Town taxi</span>
-                                                <h2>$6.50 <sub>/ km</sub></h2>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                    industry. Lorem Ipsum has been the industry's standard dummy text
-                                                    ever since the 1500s, when an unknown printer took a galley of type
-                                                    and scrambled it to make a type specimen book.</p>
-                                                <div class="laguage-detail">
-                                                    <span><i class="fa fa-briefcase"></i> 2 Bags</span>
-                                                    <span><i class="fa fa-user"></i> 3 Passengers</span>
-                                                    <span><i class="fa fa-clock-o"></i> 6.5 / 100 Mpg</span>
-                                                </div>
-                                                <a href="#" title="Select Taxi">Select Taxi</a>
-                                            </div>
-                                            <div class="col-lg-5 choose-img">
-                                                <img src="assets/images/choose-slide-img.jpg" alt="Image"/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="contnet_3_dtl-2">
-                                    <div class="choose-slide-content">
-                                        <div class="row">
-                                            <div class="col-lg-7">
-                                                <h3>2017 Hyundai Santa Fe</h3>
-                                                <span>Town taxi</span>
-                                                <h2>$6.50 <sup>/ km</sup></h2>
-                                                <p>It has survived not only five centuries, but also the leap into
-                                                    electronic typesetting, remaining essentially unchanged. It was
-                                                    popularised in the 1960s with the release of Letraset sheets
-                                                    containing Lorem Ipsum passages, and more recently with desktop
-                                                    publishing software like Aldus PageMaker including versions of Lorem
-                                                    Ipsum.</p>
-                                                <div class="laguage-detail">
-                                                    <span><i class="fa fa-briefcase"></i> 2 Bags</span>
-                                                    <span><i class="fa fa-user"></i> 3 Passengers</span>
-                                                    <span><i class="fa fa-clock-o"></i> 6.5 / 100 Mpg</span>
-                                                </div>
-                                                <a href="#" title="Select Taxi">Select Taxi</a>
-                                            </div>
-                                            <div class="col-lg-5 choose-img">
-                                                <img src="assets/images/choose-slide-img.jpg" alt="Image"/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="contnet_3_dtl-3">
-                                    <div class="choose-slide-content">
-                                        <div class="row">
-                                            <div class="col-lg-7">
-                                                <h3>2017 Hyundai Santa Fe</h3>
-                                                <span>Town taxi</span>
-                                                <h2>$6.50 <sup>/ km</sup></h2>
-                                                <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                                                    ipsu nec sagittis sem nibh id elit.Aenean sollicitudin, lorem quis
-                                                    bibendum auctor, nisi elit consequat ipsu nec sagittis sem nibh id
-                                                    elit.Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-                                                    consequat ielit.</p>
-                                                <div class="laguage-detail">
-                                                    <span><i class="fa fa-briefcase"></i> 2 Bags</span>
-                                                    <span><i class="fa fa-user"></i> 3 Passengers</span>
-                                                    <span><i class="fa fa-clock-o"></i> 6.5 / 100 Mpg</span>
-                                                </div>
-                                                <a href="#" title="Select Taxi">Select Taxi</a>
-                                            </div>
-                                            <div class="col-lg-5 choose-img">
-                                                <img src="assets/images/choose-slide-img.jpg" alt="Image"/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="contnet_3_dtl-4">
-                                    <div class="choose-slide-content">
-                                        <div class="row">
-                                            <div class="col-lg-7">
-                                                <h3>2017 Hyundai Santa Fe</h3>
-                                                <span>Town taxi</span>
-                                                <h2>$6.50 <sup>/ km</sup></h2>
-                                                <p>It is a long established fact that a reader will be distracted by the
-                                                    readable content of a page when looking at its layout. The point of
-                                                    using Lorem Ipsum is that it has a more-or-less normal distribution
-                                                    of letters, as opposed to using 'Content here, content here', making
-                                                    it look like readable English.</p>
-                                                <div class="laguage-detail">
-                                                    <span><i class="fa fa-briefcase"></i> 2 Bags</span>
-                                                    <span><i class="fa fa-user"></i> 3 Passengers</span>
-                                                    <span><i class="fa fa-clock-o"></i> 6.5 / 100 Mpg</span>
-                                                </div>
-                                                <a href="#" title="Select Taxi">Select Taxi</a>
-                                            </div>
-                                            <div class="col-lg-5 choose-img">
-                                                <img src="assets/images/choose-slide-img.jpg" alt="Image"/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="contnet_3_dtl-5">
-                                    <div class="choose-slide-content">
-                                        <div class="row">
-                                            <div class="col-lg-7">
-                                                <h3>2017 Hyundai Santa Fe</h3>
-                                                <span>Town taxi</span>
-                                                <h2>$6.50 <sup>/ km</sup></h2>
-                                                <p>Many desktop publishing packages and web page editors now use Lorem
-                                                    Ipsum as their default model text, and a search for 'lorem ipsum'
-                                                    will uncover many web sites still in their infancy. Various versions
-                                                    have evolved over the years, sometimes by accident, sometimes on
-                                                    purpose (injected humour and the like).</p>
-                                                <div class="laguage-detail">
-                                                    <span><i class="fa fa-briefcase"></i> 2 Bags</span>
-                                                    <span><i class="fa fa-user"></i> 3 Passengers</span>
-                                                    <span><i class="fa fa-clock-o"></i> 6.5 / 100 Mpg</span>
-                                                </div>
-                                                <a href="#" title="Select Taxi">Select Taxi</a>
-                                            </div>
-                                            <div class="col-lg-5 choose-img">
-                                                <img src="assets/images/choose-slide-img.jpg" alt="Image"/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="contnet_3_dtl-6">
-                                    <div class="choose-slide-content">
-                                        <div class="row">
-                                            <div class="col-lg-7">
-                                                <h3>2017 Hyundai Santa Fe</h3>
-                                                <span>Town taxi</span>
-                                                <h2>$6.50 <sup>/ km</sup></h2>
-                                                <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                                                    ipsu nec sagittis sem nibh id elit.Aenean sollicitudin, lorem quis
-                                                    bibendum auctor, nisi elit consequat ipsu nec sagittis sem nibh id
-                                                    elit.Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-                                                    consequat ielit.</p>
-                                                <div class="laguage-detail">
-                                                    <span><i class="fa fa-briefcase"></i> 2 Bags</span>
-                                                    <span><i class="fa fa-user"></i> 3 Passengers</span>
-                                                    <span><i class="fa fa-clock-o"></i> 6.5 / 100 Mpg</span>
-                                                </div>
-                                                <a href="#" title="Select Taxi">Select Taxi</a>
-                                            </div>
-                                            <div class="col-lg-5 choose-img">
-                                                <img src="assets/images/choose-slide-img.jpg" alt="Image"/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="col-md-4 col-sm-6 col-12">
+                        <div class="contact-box">
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            <h2>Email</h2>
+                            <p><a href="mailto:<?php echo $c['email'] ?>"><?php echo $c['email'] ?></a></p>
+                            <p><a href="mailto:<?php echo $c['email-2'] ?>"><?php echo $c['email-2'] ?></a></p>
                         </div>
                     </div>
-                </div>
+                </div><!-- Row /- -->
             </div><!-- Container /- -->
-        </div><!-- Choose Section /- -->
+        </div>
 
         <!-- callout Section -->
-        <div class="callout-section">
+        <div class="callout-section" id="faq">
             <!-- Container -->
             <div class="container">
                 <div class="callout-detail">
@@ -881,161 +410,6 @@ include 'head.php';
                 </div>
             </div><!-- Container /- -->
         </div><!-- callout Section /- -->
-
-        <!-- App Counter Section -->
-        <div class="app-counter-section d-none">
-            <!-- Container -->
-            <div class="container">
-                <div class="row justify-content-end">
-                    <div class="col-md-5">
-                        <div class="mobile-app">
-                            <!-- Section Header -->
-                            <div class="section-header section-header-left">
-                                <h6>get our</h6>
-                                <h3><b>mobile</b> app</h3>
-                            </div><!-- Section Header /- -->
-                            <p>Brady Bunch the Brady Bunch that's the way we all became the Brady Bunch. Goodbye gray
-                                sky I hold you. I hold you.<br>
-                                There's nothing can hold Me when I hold you. Feels so right it cant be wrong. Rockin'
-                                and rollin' all week long.</p>
-                            <p>Brady Bunch. Goodbye gray sky I hold you. I hold you.<br>
-                                There's nothing can hold Me when I hold you. Feels so right it cant be wrong. Rockin'
-                                and rollin' all week long.</p>
-                            <h5>Download Now</h5>
-                            <p>There's nothing can hold Me when I hold you. Feels so right it cant be wrong. Rockin' and
-                                rollin' all week long.</p>
-                            <a href="#"><img src="assets/images/play-store.png" alt="Play Store"/></a>
-                            <a href="#"><img src="assets/images/app-store.png" alt="App Store"/></a>
-                        </div>
-                    </div>
-                    <div class="col-md-5">
-                        <div id="counter_section-1" class="counter-block">
-                            <div class="row">
-                                <div class="col-6">
-                                    <div class="counter-box">
-                                        <i><img src="assets/images/counter-icon-1.png" alt="Counter"/></i>
-                                        <span id="statistics_1_count-1" data-fact="1600"></span>
-                                        <h5>Successful Drives</h5>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="counter-box">
-                                        <i><img src="assets/images/counter-icon-2.png" alt="Counter"/></i>
-                                        <span id="statistics_1_count-2" data-fact="1200"></span>
-                                        <h5>Happy Customers</h5>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="counter-box">
-                                        <i><img src="assets/images/counter-icon-3.png" alt="Counter"/></i>
-                                        <span id="statistics_1_count-3" data-fact="450"></span>
-                                        <h5>Long Drives</h5>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="counter-box">
-                                        <i><img src="assets/images/counter-icon-4.png" alt="Counter"/></i>
-                                        <span id="statistics_1_count-4" data-fact="218"></span>
-                                        <h5>Cities Covered</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- Container /- -->
-            <div class="mobile-img">
-                <img src="assets/images/mobile-app.png" alt="Mobile"/>
-            </div>
-        </div><!-- App Counter Section /- -->
-
-        <!-- Testimonial Section -->
-        <div class="testimonial-section d-none">
-            <!-- Container -->
-            <div class="container">
-                <!-- Section Header -->
-                <div class="section-header section-header-white">
-                    <h6>Testimonials</h6>
-                    <h3><b>Clients</b> Reviews</h3>
-                </div><!-- Section Header /- -->
-
-                <div class="testi-content-block">
-                    <div id="testi-1">
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered alteration in some form, by injected humour, or randomised words which don't look
-                            even slightly believable.There are many variations of passages of Lorem Ipsum available, but
-                            the majority have suffered alteration in some form, by injected humour, or randomised
-                            alteration in some form, by injected humour, or randomised. .....</p>
-                    </div>
-                    <div id="testi-2">
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered alteration in some form, by injected humour, or randomised words which don't look
-                            even slightly believable.There are many variations of passages of Lorem Ipsum available, but
-                            the majority have suffered alteration in some form, by injected humour, or randomised
-                            alteration in some form, by injected humour, or randomised. .....</p>
-                    </div>
-                    <div id="testi-3">
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered alteration in some form, by injected humour, or randomised words which don't look
-                            even slightly believable.There are many variations of passages of Lorem Ipsum available, but
-                            the majority have suffered alteration in some form, by injected humour, or randomised
-                            alteration in some form, by injected humour, or randomised. .....</p>
-                    </div>
-                    <div id="testi-4">
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered alteration in some form, by injected humour, or randomised words which don't look
-                            even slightly believable.There are many variations of passages of Lorem Ipsum available, but
-                            the majority have suffered alteration in some form, by injected humour, or randomised
-                            alteration in some form, by injected humour, or randomised. .....</p>
-                    </div>
-                    <div id="testi-5">
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered alteration in some form, by injected humour, or randomised words which don't look
-                            even slightly believable.There are many variations of passages of Lorem Ipsum available, but
-                            the majority have suffered alteration in some form, by injected humour, or randomised
-                            alteration in some form, by injected humour, or randomised. .....</p>
-                    </div>
-                </div>
-                <div class="testi-img-block">
-                    <div class="testi-carousel owl-carousel">
-                        <div data-position="0">
-                            <a href="javascript:void(0);" data-test="1">
-                                <img src="assets/images/testi-1.jpg" alt="testimonial"/>
-                                <h4>thomas gerome <span>Customer</span></h4>
-                            </a>
-                        </div>
-                        <div data-position="1">
-                            <a href="javascript:void(0);" data-test="2">
-                                <img src="assets/images/testi-2.jpg" alt="testimonial"/>
-                                <h4>thomas gerome <span>Customer</span></h4>
-                            </a>
-                        </div>
-                        <div data-position="2">
-                            <a href="javascript:void(0);" data-test="3">
-                                <img src="assets/images/testi-3.jpg" alt="testimonial"/>
-                                <h4>thomas gerome <span>Customer</span></h4>
-                            </a>
-                        </div>
-                        <div data-position="3">
-                            <a href="javascript:void(0);" data-test="4">
-                                <img src="assets/images/testi-1.jpg" alt="testimonial"/>
-                                <h4>thomas gerome <span>Customer</span></h4>
-                            </a>
-                        </div>
-                        <div data-position="4">
-                            <a href="javascript:void(0);" data-test="5">
-                                <img src="assets/images/testi-2.jpg" alt="testimonial"/>
-                                <h4>thomas gerome <span>Customer</span></h4>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="testi-nav">
-                        <div class="testi-prev"><i class="fa fa-angle-left"></i></div>
-                        <div class="testi-next"><i class="fa fa-angle-right"></i></div>
-                    </div>
-                </div>
-            </div><!-- Container /- -->
-        </div><!-- Testimonial Section /- -->
 
         <!-- Miscellaneous Section -->
         <div class="miscellaneous-section">
@@ -1063,8 +437,7 @@ include 'head.php';
                                          aria-labelledby="book-1" data-parent="#book-accordion">
                                         <div class="card-body">
                                             <img src="assets/images/faq-1.png" alt="FAQ"/>
-                                            <p>There are many variations of passages of Lorem Ipsum available, but the
-                                                majority have suffered alteration in some form, by injected....</p>
+                                            <p>For long drive it will be charged based on the number of kilometers covered and the time it took to get to your destination</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1080,8 +453,7 @@ include 'head.php';
                                          data-parent="#book-accordion">
                                         <div class="card-body">
                                             <img src="assets/images/faq-1.png" alt="FAQ"/>
-                                            <p>There are many variations of passages of Lorem Ipsum available, but the
-                                                majority have suffered alteration in some form, by injected....</p>
+                                            <p>To book for our ride you can visit our website@ www........ Or call <?php echo $c['phone']; ?> for reservations</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1097,8 +469,7 @@ include 'head.php';
                                          data-parent="#book-accordion">
                                         <div class="card-body">
                                             <img src="assets/images/faq-1.png" alt="FAQ"/>
-                                            <p>There are many variations of passages of Lorem Ipsum available, but the
-                                                majority have suffered alteration in some form, by injected....</p>
+                                            <p>You can drive our vehicle outside state if u have a valid  driver's license since our company is registered with the federal road safety commission they will check for ur details on our website to see if u are registered</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1114,8 +485,7 @@ include 'head.php';
                                          data-parent="#book-accordion">
                                         <div class="card-body">
                                             <img src="assets/images/faq-1.png" alt="FAQ"/>
-                                            <p>There are many variations of passages of Lorem Ipsum available, but the
-                                                majority have suffered alteration in some form, by injected....</p>
+                                            <p>There are hidden charges in case of accident this extra charges takes care of ur insurance and that of the vehicle</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1131,8 +501,7 @@ include 'head.php';
                                          data-parent="#book-accordion">
                                         <div class="card-body">
                                             <img src="assets/images/faq-1.png" alt="FAQ">
-                                            <p>There are many variations of passages of Lorem Ipsum available, but the
-                                                majority have suffered alteration in some form, by injected....</p>
+                                            <p>Yes we allow one way rental because we have our companies in abj, Lagos and kano</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1149,13 +518,7 @@ include 'head.php';
                                 </div>
                                 <div class="entry-content">
                                     <h4 class="entry-title"><a href="#">a reliable way to travel</a></h4>
-                                    <p>Take a step that is new. We've a loveable space that needs your face threes
-                                        company that needs your face threes company</p>
-                                    <div class="entry-footer">
-                                        <span><a href="#">Aug 24 2017</a></span>
-                                        <span><a href="#">6 Comments</a></span>
-                                        <span>By: <a href="#">Adams</a></span>
-                                    </div>
+                                    <p>We got the reliable way to travel to any place of ur choice in Nigeria with air conditioned vehicles that undergo general servicing before hitting the road,well trained and experienced drivers,we got ur life insurance in case of any unforseen circumstances like accident</p>
                                 </div>
                             </div><!-- Blog Box /- -->
                             <!-- Blog Box -->
@@ -1165,13 +528,7 @@ include 'head.php';
                                 </div>
                                 <div class="entry-content">
                                     <h4 class="entry-title"><a href="#">well trained drivers on duty</a></h4>
-                                    <p>Take a step that is new. We've a loveable space that needs your face threes
-                                        company that needs your face threes company</p>
-                                    <div class="entry-footer">
-                                        <span><a href="#">Aug 24 2017</a></span>
-                                        <span><a href="#">6 Comments</a></span>
-                                        <span>By: <a href="#">Adams</a></span>
-                                    </div>
+                                    <p>We got well trained driver that u can trust to take u to ur destination without fear,they have undergo series of training,in case of any reckless driving there is a toll free number to call for immediate actions ,our drivers are known by their uniforms</p>
                                 </div>
                             </div><!-- Blog Box /- -->
                         </div><!-- Latest Blog /- -->

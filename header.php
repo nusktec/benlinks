@@ -36,9 +36,10 @@
                     <ul class="navbar-nav">
                         <li><a class="nav-link" title="Home" href="#slider">Home</a></li>
                         <li><a class="nav-link" title="About Us" href="#about">About Us</a></li>
+                        <li><a class="nav-link" title="Services" href="#services">Services</a></li>
                         <li><a class="nav-link" title="Booking" href="#booking">Booking</a></li>
-                        <li><a class="nav-link" title="Services" href="services">Services</a></li>
-                        <li><a class="nav-link" title="Contact" href="contact-us">Contact</a></li>
+                        <li><a class="nav-link" title="Contact" href="#contact-us">Contact</a></li>
+                        <li><a class="nav-link" title="FAQs" href="#faqs">FAQs</a></li>
                         <li><a class="nav-link" title="Account" href="app/">Account <i class="fa fa-user"></i></a></li>
                     </ul>
                 </div>
