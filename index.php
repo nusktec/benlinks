@@ -122,7 +122,7 @@ include 'head.php';
                             </div>
 
                             <!-- LAYER NR. 4 -->
-                            <div class="tp-caption rev-btn slide-btn" id="slide-87-layer-5"
+                            <div onclick="window.location.href='app/en/welcome/onlineBooking/'" class="tp-caption rev-btn slide-btn" id="slide-87-layer-5"
                                  data-x="['center','center','center','center']" data-hoffset="['1','1','1','1']"
                                  data-y="['middle','middle','middle','middle']" data-voffset="['161','161','81','101']"
                                  data-width="none"
@@ -215,7 +215,7 @@ include 'head.php';
                             </div>
 
                             <!-- LAYER NR. 8 -->
-                            <div class="tp-caption rev-btn slide-btn" id="slide-89-layer-5"
+                            <div onclick="window.location.href='app/en/welcome/onlineBooking/'" class="tp-caption rev-btn slide-btn" id="slide-89-layer-5"
                                  data-x="['center','center','center','center']" data-hoffset="['1','1','1','1']"
                                  data-y="['middle','middle','middle','middle']" data-voffset="['161','161','81','101']"
                                  data-width="none"
@@ -279,33 +279,33 @@ include 'head.php';
                             <div class="icon-content-box">
                                 <i><img src="assets/images/what-do-icon-1.png" alt="Icon"></i>
                                 <h3>airport transportation</h3>
-                                <p>Duis tincidunt ornare semper. Phasellus velit purus, maximus sed leo eu, porta aliquet sapienlibero.</p>
+                                <p>We offer airport transportation that is  we take people to and from the airport to their various destination at a very affordable price</p>
                             </div>
                         </div>
                         <div class="col-md-6 what-do-box">
                             <div class="icon-content-box">
                                 <i><img src="assets/images/what-do-icon-2.png" alt="Icon"></i>
                                 <h3>luxury taxi service</h3>
-                                <p>Duis tincidunt ornare semper. Phasellus velit purus, maximus sed leo eu, porta aliquet sapienlibero.</p>
+                                <p>We have a quality standard vehicles and same as our luxury services</p>
                             </div>
                         </div>
                         <div class="col-md-6 what-do-box">
                             <div class="icon-content-box">
                                 <i><img src="assets/images/what-do-icon-3.png" alt="Icon"></i>
                                 <h3>Home Pick Up</h3>
-                                <p>Duis tincidunt ornare semper. Phasellus velit purus, maximus sed leo eu, porta aliquet sapienlibero.</p>
+                                <p>You can log on to our website for your goods and person to be picked up at any location within and outside Abuja</p>
                             </div>
                         </div>
                         <div class="col-md-6 what-do-box">
                             <div class="icon-content-box">
                                 <i><img src="assets/images/what-do-icon-4.png" alt="Icon"></i>
                                 <h3>tour package trips</h3>
-                                <p>Duis tincidunt ornare semper. Phasellus velit purus, maximus sed leo eu, porta aliquet sapienlibero.</p>
+                                <p>We do package for clients randomly on a daily basis, patronize and stand to be one of them</p>
                             </div>
                         </div>
                     </div><!-- Row /- -->
                     <div class="img-block">
-                        <img src="assets/images/what-we-do-img.png" alt="What We Do">
+                        <img src="assets/images/what-we-do1.png" alt="What We Do">
                     </div>
                 </div>
             </div><!-- Container /- -->
@@ -320,46 +320,8 @@ include 'head.php';
                     <h6>Choose your car</h6>
                     <h3><b>book taxi</b> now</h3>
                 </div><!-- Section Header -->
-                <form class="row">
-                    <div class="form-group col-lg-4 col-md-6">
-                        <label>Name</label>
-                        <input type="text" placeholder="Enter your phone number..." class="form-control"/>
-                    </div>
-                    <div class="form-group col-lg-4 col-md-6">
-                        <label>Phone number</label>
-                        <input type="text" placeholder="+(01) xxx - xxx - xx" class="form-control"/>
-                    </div>
-                    <div class="form-group col-lg-4 col-md-6">
-                        <label>From</label>
-                        <input type="text" placeholder="Starting palce" class="form-control"/>
-                    </div>
-                    <div class="form-group col-lg-5 col-md-6 des-to">
-                        <label>to</label>
-                        <input type="text" placeholder="Destination" class="form-control"/>
-                        <span>-</span>
-                        <input type="text" placeholder="HH" class="form-control time"/>
-                        <span>:</span>
-                        <input type="text" placeholder="MM" class="form-control time"/>
-                    </div>
-                    <div class="form-group col-lg-3 col-md-6">
-                        <label>Passenger</label>
-                        <input type="text" placeholder="3" class="form-control"/>
-                    </div>
-                    <div class="form-group col-lg-4 col-md-6">
-                        <label>CLASS</label>
-                        <select class="form-control">
-                            <option>Business</option>
-                            <option>First</option>
-                            <option>Second</option>
-                            <option>Third</option>
-                        </select>
-                    </div>
-                    <div class="form-group col-12 car-type">
-                        <label>car type</label>
-                        <span>Convertible <input type="checkbox"/></span>
-                        <span>Vans <input type="checkbox"/></span>
-                        <span>Luxury <input type="checkbox"/></span>
-                        <span>Cars <input type="checkbox"/></span>
+                <form class="row" action="app/en/welcome/onlineBooking/">
+                    <div class="form-group col-12 car-type text-center">
                         <span><input type="submit" value="BOOK YOUR TRIP"/></span>
                     </div>
                 </form>
@@ -406,7 +368,7 @@ include 'head.php';
                 <div class="callout-detail">
                     <h3>the great cab offer <span>save &#8358;1000.00</span> available now! Luxury car </h3>
                     <h6>CALL US : <a href="tel:<?php echo $c['phone']; ?>"><?php echo $c['phone']; ?></a></h6>
-                    <a href="app/" title="Book Now">Book Now</a>
+                    <a href="app/en/welcome/onlineBooking/" title="Book Now">Book Now</a>
                 </div>
             </div><!-- Container /- -->
         </div><!-- callout Section /- -->

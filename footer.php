@@ -89,7 +89,7 @@
                 <ul>
                     <li><a href="app/" title="Faq">Login</a></li>
                     <li><a href="app/en/auth/create_user" title="News">Register</a></li>
-                    <li><a href="contact-us" title="Client Support">Client Support</a></li>
+                    <li><a href="#contact-us" title="Client Support">Client Support</a></li>
                 </ul>
                 <p>&copy; Copyright Benlinks <?php echo Date('Y'); ?>. All Rights reserved | R01 Dev.</p>
             </div>
